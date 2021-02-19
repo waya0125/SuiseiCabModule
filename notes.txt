@@ -1,0 +1,25 @@
+switch(S_Rollsign){
+    case "0" : Dummy.render(renderer);break;
+    case "1" : example1.render(renderer);break;
+    case "2" : example2.render(renderer);break;
+    case "3" : example3.render(renderer);break;
+    default : Dummy.render(renderer);break;
+}
+
+
+
+if(S_Rollsign == 0){Dummy.render(renderer);}
+    else if(S_Rollsign >= 1 && S_Rollsign <= 4){Local2.render(renderer);}
+    else if(S_Rollsign >= 5 && S_Rollsign <= 8){Expless.render(renderer);}
+    else if(S_Rollsign >= 9 && S_Rollsign <= 12){SemiExp.render(renderer);}
+    else if(S_Rollsign >= 13 && S_Rollsign <= 18){Local2.render(renderer);}
+    else if(S_Rollsign >= 19 && S_Rollsign <= 24){Expless.render(renderer);}
+    else if(S_Rollsign >= 25 && S_Rollsign <= 29){LimExp.render(renderer);}
+    else if(S_Rollsign == 30 && S_Rollsign == 31){RapidLimExp.render(renderer);}
+    else if(S_Rollsign == 32){Dummy.render(renderer);}
+    else if(S_Rollsign >= 33 && S_Rollsign <= 35){Extra.render(renderer);}
+    else if(S_Rollsign == 36){Extra.render(renderer);}
+    else if(S_Rollsign == 37){TestRun.render(renderer);}
+    else if(S_Rollsign == 38){OutOfService.render(renderer);}
+    else{Dummy.render(renderer);}
+}
