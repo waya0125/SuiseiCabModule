@@ -37,47 +37,72 @@ https://twitter.com/Suisei_THFactry
 * **彗星鉄道総合車両研究所**  
 個々のスクリプトのコードは該当著作権が返還されます。
 
-# ◆現在実装はされていないベータコード◆
-動くはずなのに動かないのでここにかいておきます。
+# ◆方向幕の設定方法◆
+方向幕がどの種別なのか、表示したくなりますよね？そんなときはこのコードをsuiseihud内の任意の場所に記載すれば動いちゃいます。  
+ちなみに、これはScriptがかける技術がないと難しいです。  
+以下の内容にすべて当てはまれば動きます。  
+* 0から始まること
+* 大なり小なりｲｺｰﾙｲｺｰﾙが理解できること
+* Render.JSが書けるor書いたことがある
+* このコードが読める(理解できる)
+```js
+SampleCode STPG2000
+if (S_Rollsign == 0) {Dummy.render(renderer);}
+    else if (S_Rollsign == 1) {Local1.render(renderer);}
+    else if (S_Rollsign == 2) {Local2.render(renderer);}
+    else if (S_Rollsign == 3) {Rapid.render(renderer);}
+    else if (S_Rollsign == 4) {SpecialRapid.render(renderer);}
+    else if (S_Rollsign == 5) {RegionalRapid.render(renderer);}
+    else if (S_Rollsign == 6) {Expless.render(renderer);}
+    else if (S_Rollsign == 7) {LimExp.render(renderer);}
+    else if (S_Rollsign == 8) {SemiExp.render(renderer);}
+    else if (S_Rollsign == 9) {SemiSExp.render(renderer);}
+    else if (S_Rollsign == 10) {RapidExpless.render(renderer);}
+    else if (S_Rollsign == 11) {RapidLimExp.render(renderer);}
+    else if (S_Rollsign == 12) {ComRapid.render(renderer);}
+    else if (S_Rollsign == 13) {ComExp.render(renderer);}
+    else if (S_Rollsign == 14) {ComLimExp.render(renderer);}
+    else if (S_Rollsign == 15) {ComSemiExp.render(renderer);}
+    else if (S_Rollsign == 16) {ComSemiSExp.render(renderer);}
+    else if (S_Rollsign == 17) {ComRapidExp.render(renderer);}
+    else if (S_Rollsign == 18) {ComRapLimExp.render(renderer);}
+    else if (S_Rollsign >= 19 && S_Rollsign <= 21) {Direct.render(renderer);}
+    else if (S_Rollsign == 22) {OutOfService.render(renderer);}
+    else if (S_Rollsign == 23) {TestRun.render(renderer);}
+    else if (S_Rollsign == 24) {Extra.render(renderer);}
+    else if (S_Rollsign == 25) {Dantai.render(renderer);}
+    else if (S_Rollsign == 26) {OutOfService.render(renderer);}
+    else if (S_Rollsign == 27) {KUSOKAISOKU.render(renderer);}
+    else if (S_Rollsign == 28) {Direct.render(renderer);}
+else {Dummy.render(renderer);}
 ```
-SampleCode SRN125A_beta
-switch(S_Rollsign){
-    case "0" : Dummy.render(renderer);break;
-    case "1" : OutOfService.render(renderer);break;
-    case "2" : TestRun.render(renderer);break;
-    case "3" : Extra.render(renderer);break;
-    case "4" : Dummy.render(renderer);break;
-    case "5" : Extra.render(renderer);break;
-    case "6" : OutOfService.render(renderer);break;
-    case "7" : OutOfService.render(renderer);break;
-    case "8" : OutOfService.render(renderer);break;
-    case "9" : OutOfService.render(renderer);break;
-    case "10" : OutOfService.render(renderer);break;
-    case "11" : OutOfService.render(renderer);break;
-    case "12" : Dummy.render(renderer);break;
-    case "13" : Dummy.render(renderer);break;
-    case "14" : Extra.render(renderer);break;
-    case "15" : Extra.render(renderer);break;
-    default : Dummy.render(renderer);break;
-}
-
-
-SampleCode SR6200_1000
-if(S_Rollsign == 0){Dummy.render(renderer);}
-    else if(S_Rollsign >= 1 && S_Rollsign <= 4){Local2.render(renderer);}
-    else if(S_Rollsign >= 5 && S_Rollsign <= 8){Expless.render(renderer);}
-    else if(S_Rollsign >= 9 && S_Rollsign <= 12){SemiExp.render(renderer);}
-    else if(S_Rollsign >= 13 && S_Rollsign <= 18){Local2.render(renderer);}
-    else if(S_Rollsign >= 19 && S_Rollsign <= 24){Expless.render(renderer);}
-    else if(S_Rollsign >= 25 && S_Rollsign <= 29){LimExp.render(renderer);}
-    else if(S_Rollsign == 30 && S_Rollsign == 31){RapidLimExp.render(renderer);}
-    else if(S_Rollsign == 32){Dummy.render(renderer);}
-    else if(S_Rollsign >= 33 && S_Rollsign <= 35){Extra.render(renderer);}
-    else if(S_Rollsign == 36){Extra.render(renderer);}
-    else if(S_Rollsign == 37){TestRun.render(renderer);}
-    else if(S_Rollsign == 38){OutOfService.render(renderer);}
-    else{Dummy.render(renderer);}
-}
+参考までに、用意されている種別は以下のとおりです。
+```
+    "Local1" (各駅停車)
+    "Local2" (各停)
+    "Local3" (普通)
+    "Local4" (ワンマン)
+    "SemiExp" (準急)
+    "Expless" (急行)
+    "Rapid" (快速)
+    "LimExp" (特急)
+    "RapidLimExp" (快特)
+    "SpecialRapid" (特別快速)
+    "RegionalRapid" (区間快速)
+    "SemiSExp" (準特急)
+    "RapidExpless" (快速急行)
+    "ComExp" (通勤急行)
+    "ComRapid" (通勤快速)
+    "ComLimExp" (通勤特急)
+    "ComSemiExp" (通勤準急)
+    "ComSemiSExp" (通勤準特急)
+    "ComRapidExp" (通勤快急)
+    "ComRapLimExp" (通勤快特)
+    "OutOfService" (回送)
+    "Extra" (臨時)
+    "Dantai" (団体)
+    "Direct" (直通)
+    "TestRun" (試運転)
 ```
 
 # ◆更新履歴◆  
