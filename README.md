@@ -29,14 +29,13 @@
 * [NonRender]と書かれているmqoを放り投げて下さい。そしたら導入完了です。
 
 # ◆注意事項◆
-二次配布・再配布は禁止です。必ずここのGitHubからダウンロードして下さい。  
+二次配布・再配布は禁止です。必ずここのGitHub、もしくはミラーサイト(https://ux.getuploader.com/Suisei_RTM/)からダウンロードして下さい。  
 著作権はすべて著作者に返還されます。  
 クラッシュした場合は教えてください。ただし、導入できない！わからない！などの基礎中の基礎の問題は無視させていただきます。  
 連絡する場合は以下のTwitterへ (作者垢へは緊急時以外はお控え下さい。)  
 https://twitter.com/Suisei_THFactry  
 なおこのコード、モデル等を追記することで生じる障害やコンピュータ等の破損、プログラムが動作しない等、ユーザー個々に生じた問題に関して一切責任を負いません。予めご了承下さい。  
-またこの運転台は「改変可能ライセンス(複製不可)」、通称MITライセンスとなっております。ただし、無断でコードを改変したものを自己のプログラムに組み込むなどのことは禁止させていただきます。  
-もし参考にしたい、使用したいなどの要望がある場合はTwitterDMへご一報を下さい。宜しくお願いします。
+またこの運転台を自己のプログラムの参考にしたい、使用したいなどの要望がある場合はTwitterDMへご一報を下さい。宜しくお願いします。
 
 # ◆著作権情報◆
 製造元  
@@ -51,7 +50,7 @@ https://twitter.com/Suisei_THFactry
 # ◆方向幕の設定方法◆
 方向幕がどの種別なのか、表示したくなりますよね？そんなときはこのコードをsuiseihud内の任意の場所に記載すれば動いちゃいます。  
 ちなみに、これはScriptがかける技術がないと難しいです。  
-以下の内容にすべて当てはまれば動きます。  
+以下の内容にすべて当てはまれば問題ないと思います  
 * 0から始まること
 * 大なり小なりｲｺｰﾙｲｺｰﾙが理解できること
 * Render.JSが書けるor書いたことがある
@@ -85,8 +84,7 @@ if (S_Rollsign == 0) {Dummy.render(renderer);}
     else if (S_Rollsign == 24) {Extra.render(renderer);}
     else if (S_Rollsign == 25) {Dantai.render(renderer);}
     else if (S_Rollsign == 26) {OutOfService.render(renderer);}
-    else if (S_Rollsign == 27) {KUSOKAISOKU.render(renderer);}
-    else if (S_Rollsign == 28) {Direct.render(renderer);}
+    else if (S_Rollsign == 27) {Direct.render(renderer);}
 else {Dummy.render(renderer);}
 ```
 参考までに、用意されている種別は以下のとおりです。
