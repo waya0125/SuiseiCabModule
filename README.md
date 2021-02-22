@@ -10,7 +10,7 @@
 
 # ◆ライセンス◆
 この作品には「**ライセンスA**」が適用されます。  
-ただし、コードやmqoなどの内蔵データを自己パックとしてリリースする際はTwitterDMまで一声お声掛け下さい。  
+ただし、コードやmqoなどの内蔵データを自己パックとしてリリースする際は[TwitterDM](https://twitter.com/Suisei_THFactry)まで一声お声掛け下さい。  
 ライセンスの詳細は同一リストにある[LICENSE](https://github.com/waya2018/SuiseiCabModule/blob/main/LICENSE)ファイル、もしくは[製作者ウェブサイト](https://waya0125.com/RTM_LICENSE.html)を必ずご参照下さい。
 
 # ◆仕様書◆
@@ -29,7 +29,7 @@
 * [NonRender]と書かれているmqoを放り投げて下さい。そしたら導入完了です。
 
 # ◆注意事項◆
-二次配布・再配布は禁止です。必ずここのGitHub、もしくは[ミラー](https://ux.getuploader.com/Suisei_RTM/)からダウンロードして下さい。  
+二次配布・再配布は禁止です。必ずここの[GitHub](https://github.com/waya2018/)、もしくは[ミラー](https://ux.getuploader.com/Suisei_RTM/)からダウンロードして下さい。  
 著作権はすべて著作者に返還されます。  
 クラッシュした場合は教えてください。ただし、導入できない！わからない！などの基礎中の基礎の問題は無視させていただきます。  
 連絡する場合は[Twitter](https://twitter.com/Suisei_THFactry)へ (作者垢へは緊急時以外はお控え下さい。)  
