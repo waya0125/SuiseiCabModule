@@ -44,6 +44,7 @@
 * [**Siwo Transportation Public Group**](https://twitter.com/siwo9515)
 * [**hi03**](https://twitter.com/hi03_s)
 * [**雪急車輌製造**](https://twitter.com/MahuyuYukiyuki)
+  
 著作権はすべて該当作者にそれぞれ返還されます。
 
 # ◆方向幕の設定方法◆
