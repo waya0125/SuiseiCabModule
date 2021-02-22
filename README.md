@@ -38,12 +38,12 @@
 
 # ◆著作権情報◆
 製造元  
-* **彗星鉄道総合車両研究所**  
+* [**彗星鉄道総合車両研究所**](https://twitter.com/Suisei_THFactry)
 
 コード提供  
-* **Siwo Transportation Public Group**
-* **hi03**
-* **雪急車輌製造**
+* [**Siwo Transportation Public Group**](https://twitter.com/siwo9515)
+* [**hi03**](https://twitter.com/hi03_s)
+* [**雪急車輌製造**](https://twitter.com/MahuyuYukiyuki)
 著作権はすべて該当作者にそれぞれ返還されます。
 
 # ◆方向幕の設定方法◆
