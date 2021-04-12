@@ -16,9 +16,9 @@
     <img src="https://img.shields.io/github/repo-size/waya2018/SuiseiCabModule?label=Project%20Size" alt="Project Size">
     <img src="https://img.shields.io/github/release-date-pre/waya2018/SuiseiCabModule?label=Update%20Date" alt="Update Date">
     <img src="https://wakatime.com/badge/github/waya2018/SuiseiCabModule.svg" alt="Time Tracked">
-    ![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/waya2018/SuiseiCabModule?label=Update%20Date)
     <img alt="GitHub (Pre-)Release Date" src="https://img.shields.io/github/release-date-pre/waya2018/SuiseiCabModule?label=Update%20Date">
 </p>
+![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/waya2018/SuiseiCabModule?label=Update%20Date)
 
 # ◆ライセンス◆
 この作品には「**ライセンスA**」が適用されます。  
