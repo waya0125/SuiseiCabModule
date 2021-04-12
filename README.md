@@ -18,8 +18,6 @@
     <img src="https://wakatime.com/badge/github/waya2018/SuiseiCabModule.svg" alt="Time Tracked">
 </p>
 
-
-
 # ◆ライセンス◆
 この作品には「**ライセンスA**」が適用されます。  
 ただし、コードやmqoなどの内蔵データを自己パックとしてリリースする際は[TwitterDM](https://twitter.com/Suisei_THFactry)まで一声お声掛け下さい。  
