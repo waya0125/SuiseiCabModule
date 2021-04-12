@@ -12,8 +12,10 @@
     <a href="//twitter.com/Suisei_THFactry">
     <img src="https://img.shields.io/twitter/url?label=Twitter&style=social&url=https%3A%2F%2Ftwitter.com%2Fwayamoti2015" alt="Twitter"></a>
     <img src="https://img.shields.io/github/v/release/waya2018/SuiseiCabModule?label=Release" alt="Release"></a>
-    <img src="https://github.com/avinal/avinal/workflows/Build%20Graph/badge.svg" alt="Build">
-    <img src="https://wakatime.com/badge/github/waya2018/waya2018.svg" alt="Time Tracked">
+    <img src="https://img.shields.io/github/downloads/waya2018/SuiseiCabModule/latest/total?label=DL" alt="Download">
+    <img src="https://img.shields.io/github/repo-size/waya2018/SuiseiCabModule?label=Project%20Size" alt="Project Size">
+    
+    <img src="https://wakatime.com/badge/github/waya2018/SuiseiCabModule.svg" alt="Time Tracked">
 </p>
 
 
