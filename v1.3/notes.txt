@@ -4,9 +4,7 @@ switch(S_Rollsign){
     case "2" : example2.render(renderer);break;
     case "3" : example3.render(renderer);break;
     default : Dummy.render(renderer);break;
-}
-
-
+} //動かない
 
 if(S_Rollsign == 0){Dummy.render(renderer);}
     else if(S_Rollsign >= 1 && S_Rollsign <= 4){Local2.render(renderer);}
@@ -22,4 +20,4 @@ if(S_Rollsign == 0){Dummy.render(renderer);}
     else if(S_Rollsign == 37){TestRun.render(renderer);}
     else if(S_Rollsign == 38){OutOfService.render(renderer);}
     else{Dummy.render(renderer);}
-}
+} //動く
