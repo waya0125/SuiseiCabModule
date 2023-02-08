@@ -13,7 +13,7 @@
 | Discord    | [waya#0125](https://discord.com/users/409706179787358218) |
 | GitHub     | https://github.com/waya0125 |
 | Repository | https://github.com/waya0125/SuiseiCabModule |
-| Download   | 現在なし |
+| Download   | https://github.com/waya0125/SuiseiCabModule/archive/refs/heads/main.zip |
 
 <p align=center>
     <a href="https://twitter.com/Suisei_THFactry">
@@ -25,7 +25,6 @@
     <img src="https://wakatime.com/badge/github/waya2018/SuiseiCabModule.svg" alt="Time Tracked">
     <img alt="GitHub (Pre-)Release Date" src="https://img.shields.io/github/release-date-pre/waya2018/SuiseiCabModule?label=Update%20Date">
 </p>
-![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/waya2018/SuiseiCabModule?label=Update%20Date)
 
 # ◆ご理解と注意点◆
 - 現在この作品は絶賛制作中です。ですが、リアルが忙しかったり、コーディング側の都合が合わなかったりしているためベータ版止まりとなっています。  
