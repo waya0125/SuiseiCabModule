@@ -3,7 +3,7 @@
 ## ◆概要◆
 | 概要 | 説明 |
 | :--  | :--  |
-| Package    | 彗星鉄道車両研究所製作 運転台 |
+| Package    | 彗星鉄道車両研究所製作 運転台アドオン |
 | Version    | 2.0 |
 | License    | [SUISEI RAILWAY LICENSE 1.1](https://waya0125.com/RTM_LICENSE)
 | Creator    | わや／wayamoti2015@waya0125 |
